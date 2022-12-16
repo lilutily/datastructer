@@ -1,9 +1,10 @@
 package org.example.chap05.stack;
 
-import org.example.chap05.queue.Queue;
+
 import org.junit.jupiter.api.Test;
 
 import java.util.LinkedList;
+import java.util.Queue;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -29,7 +30,7 @@ class StackTest {
         foodStack.pop();
 
 
-//        Queue<String> queue = new LinkedList<>();   --> Queue는 new 할수 없음
+        Queue<String> queue = new LinkedList<>(); //  --> Queue는 new 할수 없음
 
     }
 }
