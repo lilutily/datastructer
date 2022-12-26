@@ -42,8 +42,12 @@ class GraphListTest {
         gl.addEdge(G, H);
 
         // 그래프 출력
-        gl.showGraph();
+//        gl.showGraph();
 
+//        gl.DFS(A);
+//        gl.DFS2(A);
+        gl.BFS(A);
+        System.out.println("/ㅇㅅㅇ\\");
         /*
                  A
                / \ \

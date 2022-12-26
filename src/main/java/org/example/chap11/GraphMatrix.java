@@ -1,5 +1,7 @@
 package org.example.chap11;
 
+
+// n^2 따라서 list 방식이 속도가 더 빠르다
 public class GraphMatrix {
 
     public static final int MAX = 50; // 최대 정점 수
