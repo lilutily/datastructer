@@ -35,6 +35,15 @@ public class 그리디01 {
         sc.close();
 
         실전문제에서는 buffer로 풀것
+
+        Scanner -> Buffered
+
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st = new StringTokenizer(br.readLine());
+
+        int N = Integer.parseInt(st.nextToken());
+        int K = Integer.parseInt(st.nextToken());
+
      */
 
 
